@@ -1,0 +1,191 @@
+                     Smart Data Cleansing & Predicting
+
+
+       PRABHJOT SINGH                         GAURAV SHARMA                                RAVI
+          CSE-AIML                               CSE-AIML
+                                                                                        CSE-AIMl
+
+        CHANDIGARH                               CHANDIGARH
+                                                                                     CHANDIGARH
+         UNIVERSITY                               UNIVERSITY
+                                                                                      UNIVERSITY
+
+  Chandigarh,Punjab,India                    Chandigarh,Punjab,India
+                                                                             Chandigarh,Punjab,India
+
+   20BCS6895@cuchd.in                         20BCS6879@cuchd.in
+                                                                             21BCS8808@cuchd.in
+
+
+
+
+                                                                 data cleaning process so you know you are
+       I.      ACKNOWLEDGEMENT:
+                                                                 doing it the right way every time.
+                                                                 Step 1: Remove duplicate or irrelevant
+            I would like to express my special thanks            observations
+            of gratitude to my teacher Dr. Amit Garg             Step 2: Fix structural errors
+            who gave me the golden opportunity to do             Step 3: Filter unwanted outliers
+            this wonderful project on the topic data             Step 4: Handle missing data
+            cleaning, which also helped me in doing a
+            lot of Research and I came to know about             Data cleaning is the initial stage of any
+            so many new things I am really thankful to           machine learning project and is one of the
+            them.                                                most critical processes in data analysis.
+            Secondly I would also like to thank my               Data cleaning entails a slew of procedures
+            team members and friends who helped me               that, once done, make the data ready for
+            a lot in finalizing this project within the          analysis. Given its significance in
+            limited time frame.                                  numerous fields, there is a growing
+                                                                 interest in the development of efficient and
+ II.        INTRODUCTION:                                        effective data cleaning frameworks. In this
+                                                                 survey, some of the most recent
+            Data cleaning is the process of fixing or            advancements of data cleaning approaches
+            removing incorrect, despoiled, incorrectly           are examined for their effectiveness and
+            formatted, replacement, or incomplete data           the future research directions are
+            within a dataset. When combining multiple            suggested to close the gap in each of the
+            data sources, there are many opportunities           methods.
+            for data to be duplicated or mislabeled. If
+            data is incorrect, outcomes and algorithms           As a data scientist, one of the biggest
+            are unreliable, even though they may look            struggles is cleansing the data before one
+            correct. There is no one absolute way to             can actually dive into it to get some
+            prescribe the exact steps in the data                meaningful insights. Data cleaning is one
+            cleaning process because the processes               of the most important steps which should
+            will vary from dataset to dataset. But it is         never be ignored. If the data is not cleaned
+            crucial to establish a template for your             thoroughly, the accuracy of your model
+                                                                 stands on shaky grounds Poor quality of
+
+
+XXX-X-XXXX-XXXX-X/XX/$XX.00 ©20XX IEEE
+        data leads to biased results with low                       that despite the availability of existing
+        accuracy high error percentages thus, it is                 frameworks to address data cleansing for
+        important to clean the data thoroughly                      big data expert in undeniable as an expert
+        before fitting a model to it. As a data                     is needed to verify and validate the data
+        scientist, it is important to understand that               before it can undergo an analysis process.
+        all the data provided to us may not be
+        useful and hence we must know the ways                                Review 2
+        to treat them. What is data cleaning –
+        Removing null records, dropping                             Data cleansing has become a major
+        unnecessary columns, treating missing                       activity performed by most organizations
+        values, rectifying junk values or otherwise                 that have data warehouses. Every
+        called outliers, restructuring the data to                  organization needs quality data to improve
+        modify it to a more readable format, etc is                 on its services it renders to its customers.
+        known as data cleaning.                                     In view of this a thorough review of
+                                                                    approaches and papers in that regard are
+                                                                    discussed and their limitations also stated.
+Content of Dataset                                                  This is to help future development and
+                                                                    research directions in the area of data
+ This dataset contains about 10 years of daily                      cleansing. The papers reviewed in this
+weather observations from many locations across                     report looked at critical aspects of data
+Australia.                                                          cleansing and the various types of data that
+RainTomorrow is the target variable to predict. It means -          could be cleansed. Several algorithms have
+- did it rain the next day, Yes or No? This column is Yes           been proposed in the various works
+if the rain for that day was 1mm or more.                           discussed.
+
+Context                                                                       Review 3
+
+Predict next-day rain by training classification models               Data cleaning is very necessary part of
+on the target variable RainTomorrow.                                data mining. From the above study we can
+                                                                         see that there are different types of
+                                                                     problems in data cleaning. Data cleaning
+Machine learning concpets used :
+                                                                    methods and approaches depend upon the
+                                                                     type of data which we want to clean and
+Classification                                                          according to that we apply particular
+Binary Classification                                                    methods. This paper also present a
+                                                                       comparison of data cleaning tools and
+                                                                    determines the best tool. Each tool has its
+                                                                    own specific features and depending upon
+                                                                    the data we can use the tool to clean data.
+        III.     LITERATURE REVIEW:                                      In future work we can check other
+                                                                      functionality of these tools and suggest
+                                                                                         own.
+                   Review 1
+
+        Data keeps increasing, but the quality of                             Review 4
+        the data is decreasing as many of the data
+        collected is dirty.                                   A number of authors have proposed a solution to
+                                                             address data cleansing problems. Traditional data
+        Cleansing approaches are available to                 cleansing methods is called traditional because it
+        solve this issue but data cleansing remains              is not Meanwhile, some of the methods are
+        as a challenge in order to cope with some              designed specifically for big data like Cleanix,
+        of the approaches are not suitable for big
+                                                             SCARE, KATARA, These methods are developed
+        data as it has a significant amount of data
+to address the issue arises when dealing with big
+       data during the cleansing process.                           Resolve Empty Values:
+
+                                                                         Data cleansing tools search
+      IV.     WHAT IS YOUR IDEA?                                         and fill up those missing
+                                                                         values to complete the data
+                                                                         set and evade gaps in
+         The idea of this project is to use past
+                                                                         information.
+         weather forecasting data to predict the
+      visualization of future weather forecasting
+      prediction to help people (like farmers , for
+       saving their crops from danger and many           Standardised Cleaning Process:
+        more). First unprocessed data is take and
+                                                                         The data cleaning process
+        all the incorrect values are changed and
+       raw data is maded fit for taking it as input                      must be standardized as per
+                                                                         repeated      testing    and
+         data then all the data is processed and
+               weather prediction is maded                               methods which proved to
+                                                                         produce quality data, which
+                                                                         later on helps in easy
+                                                                         replication and consistency.
+
+
+
+
+       V.     Conclusion:
+
+
+      A data cleaning tool will alter most aspects        VI.       REFERENCES
+         of an entity’s general data cleansing
+      program, but this data cleaning tool is just        1.The Fifth Information Systems
+         a part of an ongoing remedy for data             International Conference 2019
+      cleaning. The outline of the data cleaning          A Review on Data Cleansing Methods for
+                   steps are as below:                    Big Data
+                                                          Fakhitah Ridzuan, Wan Mohd Nazmee
+     Identify critical data fields:                      Wan Zainon
+
+                     The primary step is to               2.
+                     identify which types of data         A Review of Data Cleansing Concepts –
+                     fields are crucial for the           Achievable
+                     intended project.                    Goals and Limitations
+                                                          AN OVERVIEW STUDY ON DATA
+     Data collection:                                    CLEANING, ITS TYPES
+                                                          AND ITS METHODS FOR DATA
+                 The data contained in the short-         MINING
+                 listed data fields is collected,
+                 classified and organised.                3.
+                                                          S.LakshmiMphil Research scholar-
+                                                          VISTAS
+     Discard duplicate values:                           Dr.S.v Prof & Head Dept of computer
+                                                          application VISTAS
+                     Duplicate     figures    are         lakshmi_lk@yahoo.com,
+                     recognised, eliminated, and
+                     inaccuracies are resolved.           4.
+Babar, S.; Mahalle, P.; Stango, A.; Prasad,
+N.; Prasad, R. (2010): Proposed security
+model and threat taxonomy for the Internet
+of Things (IoT). International Conference
+on Network Security and Applications, pp.
+420-429.
+
+5.
+Berti-Equille, L.; Dasu, T.; Srivastava, D.
+(2011): Discovery of complex glitch
+patterns: a novel approach to quantitative
+data cleaning. IEEE International
+Conference on Data Engineering, pp. 733-
+744.
+
+6.
+Bertossi, L.; Kolahi, S.; Lakshmanan, L.
+V. S. (2013): Data cleaning and query
+answering with matching dependencies
+and matching functions. Theory of
+Computing Systems, vol. 52, no. 3, pp.
+441-482.
+
